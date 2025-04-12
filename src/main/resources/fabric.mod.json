@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "coisinhasmod",
+	"version": "${version}",
+	"name": "Coisinhas Mod",
+	"description": "A brazilian mod that adds random things",
+	"authors": [
+		"Luna_Deathbell"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/coisinhasmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.luna.coisinhasmod.CoisinhasMod"
+		],
+		"fabric-datagen": [
+			"com.luna.coisinhasmod.CoisinhasModDataGenerator"
+		],
+		"client": [
+			"com.luna.coisinhasmod.CoisinhasModClient"
+		]
+	},
+	"mixins": [
+		"coisinhasmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
