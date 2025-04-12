@@ -11,7 +11,10 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item NATURAL_SANDWICH = registerItem("natural_sandwich", new Item(new Item.Settings().food(ModFoodComponents.NATURAL_SANDWICH).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CoisinhasMod.MOD_ID,"natural_sandwich")))));
+
+    public static final Item NATURAL_SANDWICH = registerItem("natural_sandwich", new Item(ModUtils.createFoodSettings("natural_sandwich", ModFoodComponents.NATURAL_SANDWICH)));
+    public static final Item COXINHA = registerItem("coxinha", new Item(ModUtils.createFoodSettings("coxinha", ModFoodComponents.COXINHA)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CoisinhasMod.MOD_ID, name), item);
@@ -20,8 +23,8 @@ public class ModItems {
     public static void registerModItems() {
         CoisinhasMod.LOGGER.info("Registering Mod Items for " + CoisinhasMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(NATURAL_SANDWICH);
-        });
+        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+        //    entries.add(NATURAL_SANDWICH);
+        //});
     }
 }

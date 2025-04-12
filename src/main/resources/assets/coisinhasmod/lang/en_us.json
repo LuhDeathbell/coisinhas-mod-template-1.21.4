@@ -1,3 +1,5 @@
 {
-  "item.tutorialmod.natural_sandwich": "Natural sandwich"
+  "item.coisinhasmod.natural_sandwich": "Natural sandwich",
+
+  "itemgroup.coisinhasmod.comidinhas": "Comidinhas"
 }

@@ -1,5 +1,6 @@
 package com.luna.coisinhasmod;
 
+import com.luna.coisinhasmod.item.ModItemGroups;
 import com.luna.coisinhasmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class CoisinhasMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
