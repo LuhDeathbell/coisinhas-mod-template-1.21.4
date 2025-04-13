@@ -16,6 +16,10 @@ public class ModItemGroups {
                 .displayName(Text.translatable("itemgroup.coisinhasmod.comidinhas"))
                 .entries(((displayContext, entries) -> {
                     entries.add(ModItems.NATURAL_SANDWICH);
+                    entries.add(ModItems.COXINHA);
+                    entries.add(ModItems.GREEN_ENERGY_DRINK);
+                    entries.add(ModItems.EMPTY_CAN);
+                    entries.add(ModItems.BLUE_ENERGY_DRINK);
 
                 })).build());
     public static void registerItemGroups() {

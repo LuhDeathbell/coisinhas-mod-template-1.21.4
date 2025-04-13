@@ -1,6 +1,8 @@
 package com.luna.coisinhasmod.item;
 
 import com.luna.coisinhasmod.CoisinhasMod;
+import net.minecraft.component.type.ConsumableComponent;
+import net.minecraft.component.type.ConsumableComponents;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKey;
@@ -14,6 +16,12 @@ public class ModUtils {
     public static  Item.Settings createFoodSettings (String name, FoodComponent food) {
         return new Item.Settings()
                 .food(food)
+                .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CoisinhasMod.MOD_ID, name)));
+    }
+    public static  Item.Settings createPotionSettings (String name, FoodComponent food, ConsumableComponent consumable) {
+        return new Item.Settings()
+                .maxCount(1)
+                .food(food, consumable)
                 .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CoisinhasMod.MOD_ID, name)));
     }
 }

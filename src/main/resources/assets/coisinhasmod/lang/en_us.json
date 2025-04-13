@@ -1,5 +1,9 @@
 {
   "item.coisinhasmod.natural_sandwich": "Natural sandwich",
+  "item.coisinhasmod.coxinha": "Coxinha",
+  "item.coisinhasmod.green_energy_drink": "Green energy drink",
+  "item.coisinhasmod.empty_can": "Empty can",
+  "item.coisinhasmod.blue_energy_drink": "Blue energy drink",
 
-  "itemgroup.coisinhasmod.comidinhas": "Comidinhas"
+  "itemgroup.coisinhasmod.comidinhas": "Snacks"
 }
