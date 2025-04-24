@@ -4,6 +4,24 @@
   "item.coisinhasmod.green_energy_drink": "Green energy drink",
   "item.coisinhasmod.empty_can": "Empty can",
   "item.coisinhasmod.blue_energy_drink": "Blue energy drink",
+  "item.coisinhasmod.raw_chicken_croissant": "Raw chicken croissant",
+  "item.coisinhasmod.raw_cheese_croissant": "Raw cheese croissant",
+  "item.coisinhasmod.raw_coxinha": "Raw coxinha",
+  "item.coisinhasmod.chicken_croissant": "Baked chicken croissant",
+  "item.coisinhasmod.cheese_croissant": "Baked cheese croissant",
+  "item.coisinhasmod.mortar_and_pestle": "Mortar and pestle",
+  "item.coisinhasmod.flour": "Flour",
+  "item.coisinhasmod.dough": "Dough",
+  "item.coisinhasmod.milk_bottle": "Bottle of milk",
+  "item.coisinhasmod.cheese": "Cheese",
+  "item.coisinhasmod.lettuce_seeds": "Lettuce seeds",
+  "item.coisinhasmod.tomato_seeds": "Tomato seeds",
+  "item.coisinhasmod.lettuce": "Lettuce",
+  "item.coisinhasmod.tomato": "Tomato",
 
+  "block.coisinhasmod.lettuce_crop": "Lettuce crop",
+  "block.coisinhasmod.tomato_crop": "Tomato crop",
+
+  "itemgroup.coisinhasmod.coisinhas": "Items",
   "itemgroup.coisinhasmod.comidinhas": "Snacks"
 }

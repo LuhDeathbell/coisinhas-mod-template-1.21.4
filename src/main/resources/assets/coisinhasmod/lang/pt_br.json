@@ -4,6 +4,24 @@
   "item.coisinhasmod.green_energy_drink": "Energético verde",
   "item.coisinhasmod.empty_can": "Lata vazia",
   "item.coisinhasmod.blue_energy_drink": "Energético azul",
+  "item.coisinhasmod.raw_chicken_croissant": "Croissant de frango cru",
+  "item.coisinhasmod.raw_cheese_croissant": "Croissant de queijo cru",
+  "item.coisinhasmod.raw_coxinha": "Coxinha crua",
+  "item.coisinhasmod.chicken_croissant": "Croissant de frango assado",
+  "item.coisinhasmod.cheese_croissant": "Croissant de queijo assado",
+  "item.coisinhasmod.mortar_and_pestle": "Almofariz e pilão",
+  "item.coisinhasmod.flour": "Farinha",
+  "item.coisinhasmod.dough": "Massa",
+  "item.coisinhasmod.milk_bottle": "Frasco de leite",
+  "item.coisinhasmod.cheese": "Queijo",
+  "item.coisinhasmod.lettuce_seeds": "Sementes de alface",
+  "item.coisinhasmod.tomato_seeds": "Sementes de tomate",
+  "item.coisinhasmod.lettuce": "Alface",
+  "item.coisinhasmod.tomato": "Tomate",
 
+  "block.coisinhasmod.lettuce_crop": "Pé de alface",
+  "block.coisinhasmod.tomato_crop": "Pé de tomate",
+
+  "itemgroup.coisinhasmod.coisinhas": "Coisinhas",
   "itemgroup.coisinhasmod.comidinhas": "Comidinhas"
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:nether_wart"
+  ],
+  "result": {
+    "count": 2,
+    "id": "coisinhasmod:cheese"
+  }
+}

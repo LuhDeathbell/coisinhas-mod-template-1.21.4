@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "coisinhasmod:empty_can",
+    "B": "minecraft:sugar",
+    "C": "minecraft:blue_dye",
+    "D": "minecraft:blaze_powder",
+    "E": "minecraft:nether_wart"
+  },
+  "pattern": [
+    "DED",
+    "BAB",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "coisinhasmod:blue_energy_drink"
+  }
+}

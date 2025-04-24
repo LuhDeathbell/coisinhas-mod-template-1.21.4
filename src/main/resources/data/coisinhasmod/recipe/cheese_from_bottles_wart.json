@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "coisinhasmod:milk_bottle",
+    "B": "minecraft:nether_wart"
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 2,
+    "id": "coisinhasmod:cheese"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "count": 1,
+    "id": "coisinhasmod:mortar_and_pestle"
+  }
+}

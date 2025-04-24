@@ -19,6 +19,17 @@ public class ModConsumableComponents {
             .sound(SoundEvents.ENTITY_GENERIC_DRINK)
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.SPEED, 900, 1)))
             .build();
+    public static final ConsumableComponent MILK_BOTTLE = drink()
+            .consumeSeconds(2.0F)
+            .sound(SoundEvents.ENTITY_GENERIC_DRINK)
+            .build();
+    public static final ConsumableComponent SNACK = food()
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 100, 0)))
+            .build();
+
+    public static ConsumableComponent.Builder food() {
+        return ConsumableComponent.builder().consumeSeconds(1.6F).useAction(UseAction.EAT).sound(SoundEvents.ENTITY_GENERIC_EAT).consumeParticles(true);
+    }
     public static ConsumableComponent.Builder drink() {
         return ConsumableComponent.builder().consumeSeconds(1.6F).useAction(UseAction.DRINK).sound(SoundEvents.ENTITY_GENERIC_DRINK).consumeParticles(false);
     }

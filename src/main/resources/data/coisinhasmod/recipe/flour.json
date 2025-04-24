@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "coisinhasmod:mortar_and_pestle",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "count": 1,
+    "id": "coisinhasmod:flour"
+  }
+}

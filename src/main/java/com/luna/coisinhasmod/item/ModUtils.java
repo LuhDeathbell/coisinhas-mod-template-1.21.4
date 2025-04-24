@@ -13,14 +13,14 @@ public class ModUtils {
     public static RegistryKey<Item> createRegKey(String path) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CoisinhasMod.MOD_ID, path));
     }
+
     public static  Item.Settings createFoodSettings (String name, FoodComponent food) {
         return new Item.Settings()
-                .food(food)
+                .food(food, ModConsumableComponents.SNACK)
                 .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CoisinhasMod.MOD_ID, name)));
     }
     public static  Item.Settings createPotionSettings (String name, FoodComponent food, ConsumableComponent consumable) {
         return new Item.Settings()
-                .maxCount(1)
                 .food(food, consumable)
                 .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CoisinhasMod.MOD_ID, name)));
     }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "coisinhasmod:cheese",
+    "B": "coisinhasmod:dough"
+  },
+  "pattern": [
+    " B ",
+    "BAB",
+    " B "
+  ],
+  "result": {
+    "count": 2,
+    "id": "coisinhasmod:raw_cheese_croissant"
+  }
+}
